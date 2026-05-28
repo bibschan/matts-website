@@ -65,7 +65,7 @@ export default function Experience() {
       <p className="text-muted max-w-2xl mb-12 leading-relaxed">
         Trusted by global enterprises across industries to navigate complex cloud
         and AI transformations. Here are some of the organizations I&apos;ve
-        had the privilege of working with.
+        had the privilege of helping.
       </p>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

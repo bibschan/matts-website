@@ -11,6 +11,7 @@ const events: Event[] = [
     role: "Organizer & Speaker",
     description:
       "Co-organizer of Cloud Summit, bringing together cloud professionals from across the Pacific Northwest for a premier cloud computing conference.",
+    url: "https://cloudsummit.ca/",
   },
   {
     name: "HackerRivals",
@@ -24,36 +25,42 @@ const events: Event[] = [
     role: "Speaker & Leader",
     description:
       "Regular speaker and community leader at AWS Community Day events across Canada, driving education and connection in the AWS ecosystem.",
+    url: "https://www.awsday.ca/",
   },
   {
     name: "AWS User Groups",
     role: "Leader",
     description:
       "Active leadership role in AWS User Groups, facilitating regular meetups that help practitioners share knowledge and advance their cloud skills.",
+    url: "https://awscanada.ca/",
   },
   {
     name: "Azure Canada User Group",
     role: "Speaker & Community Builder",
     description:
       "Contributing speaker and community builder for the Azure Canada User Group, helping Microsoft Azure practitioners connect and grow.",
+    url: "https://www.azurecanada.ca/",
   },
 ];
 
 const media = [
   {
     outlet: "CBC The Early Edition",
+    host: "Stephen Quinn",
     topic: "AI & Society",
     description: "Discussed the implications of AI and OpenAI's developments on everyday Canadians.",
   },
   {
     outlet: "CBC On the Island",
+    host: "Gregor Craigie",
     topic: "Technology & Loneliness",
     description: "Featured discussion on technology's role in addressing loneliness as a global health concern.",
   },
   {
     outlet: "CBC Daybreak Series",
+    host: "Carolina de Ryk · Chris Walker · Shelly Joyce",
     topic: "AI Impact",
-    description: "Contributed expert commentary on artificial intelligence's growing impact across Canadian communities, with hosts Carolina de Ryk (Daybreak North) and Chris Walker (Daybreak South).",
+    description: "Contributed expert commentary on artificial intelligence's growing impact across Canadian communities.",
   },
 ];
 
@@ -150,7 +157,7 @@ export default function Community() {
                 key={item.outlet}
                 className="bg-surface rounded-lg p-5 border border-surface2 hover:border-accent/30 transition-colors duration-300 group"
               >
-                <div className="flex items-center gap-3 mb-2">
+                <div className="flex items-center gap-3 mb-1">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-accent flex-shrink-0">
                     <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
                     <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
@@ -162,6 +169,9 @@ export default function Community() {
                     {item.topic}
                   </span>
                 </div>
+                <p className="font-mono text-xs text-accent/70 mb-2 pl-7">
+                  with {item.host}
+                </p>
                 <p className="text-muted text-sm leading-relaxed">
                   {item.description}
                 </p>

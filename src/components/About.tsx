@@ -2,8 +2,8 @@ const skills = [
   "Microsoft Azure",
   "Digital Transformation",
   "Amazon Web Services",
-  "Google Cloud Platform",
   "Artificial Intelligence",
+  "Google Cloud Platform",
   "Platform Engineering",
   "Cloud Architecture",
   "FinOps",
@@ -34,7 +34,9 @@ export default function About() {
           </p>
           <p>
             Recognized as a{" "}
-            <span className="text-faint font-medium">Microsoft MVP</span> and{" "}
+            <span className="text-faint font-medium">Microsoft MVP</span>,{" "}
+            <span className="text-faint font-medium">AWS Community Leader</span>{" "}
+            and{" "}
             <span className="text-faint font-medium">Google Leader</span>, I
             bring deep multi-cloud expertise and a vendor-agnostic perspective
             to every engagement. I&apos;m passionate about making complex
