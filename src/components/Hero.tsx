@@ -92,7 +92,7 @@ export default function Hero() {
           </svg>
         </a>
         <a
-          href="https://www.youtube.com/@TheMattCarolan"
+          href="https://www.youtube.com/@PublicCloudNinja"
           target="_blank"
           rel="noopener noreferrer"
           className="text-muted hover:text-accent hover:-translate-y-1 transition-all duration-200"

@@ -13,11 +13,13 @@ export default function Home() {
       <Nav />
       <main>
         <Hero />
-        <About />
-        <Experience />
-        <Recognition />
-        <Community />
-        <Contact />
+        <div className="lg:px-16">
+          <About />
+          <Experience />
+          <Recognition />
+          <Community />
+          <Contact />
+        </div>
       </main>
       <Footer />
     </>

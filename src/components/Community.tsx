@@ -193,7 +193,7 @@ export default function Community() {
               you get ahead in the world of modern technology.
             </p>
             <a
-              href="https://www.youtube.com/@TheMattCarolan"
+              href="https://www.youtube.com/@PublicCloudNinja"
               target="_blank"
               rel="noopener noreferrer"
               className="font-mono text-sm text-[#ff0000] hover:underline inline-flex items-center gap-2"
